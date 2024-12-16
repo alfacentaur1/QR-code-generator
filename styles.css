@@ -1,0 +1,23 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    height:99vh;
+    width: 99vw;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+    padding-bottom:20%;
+}
+
+.container {
+    display:flex;
+    justify-content: ;
+}
