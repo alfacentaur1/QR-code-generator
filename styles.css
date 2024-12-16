@@ -1,23 +1,120 @@
-*
-{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 html {
-    height:99vh;
-    width: 99vw;
+    height: 100%;
+    width: 100%;
 }
+
 body {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height:100%;
-    width:100%;
-    padding-bottom:20%;
+    height: 100%;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
+    color: #333;
 }
 
 .container {
-    display:flex;
-    justify-content: ;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+label {
+    font-size: 1em;
+    margin: 10px 0;
+    display: block;
+    text-align: left;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #4a90e2;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #357ab8;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #285a8c;
+    transform: translateY(0);
+}
+
+.qr {
+    margin-top: 20px;
+}
+
+.qr h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+.qr img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.qr a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #4a90e2;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.qr a:hover {
+    background: #357ab8;
+    transform: translateY(-2px);
+}
+
+.qr a:active {
+    background: #285a8c;
+    transform: translateY(0);
 }

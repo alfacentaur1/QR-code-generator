@@ -1,0 +1,8 @@
+<Files "phpqrcode">
+  Order Allow,Deny
+  Deny from all
+</Files>
+<Files "qrcodes">
+    Order Allow,Deny
+    Deny from all
+  </Files>
